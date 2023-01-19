@@ -1,0 +1,26 @@
+:root {
+
+    --primary: #484F61;
+    --primary-first-der: #6d8296;
+    --primary-second-der: #06617D;
+
+    --secondary: #FAFAFA;
+    --secondary-first-der: #FFFFFF;
+    --secondary-second-der: #ACA474;
+
+    --tertiary: #888888;
+    --tertiary-first-der: #8B8B8B;
+    --tertiary-second-der: #234233;
+
+    --read: #a9ccf0;
+    --update: #f2e1ae;
+    --change: #d6d7db;
+    --insert: #b6e7d1;
+    --search: #1960EA;
+
+    --table-odd: #e5e5e5;
+    --table-even: #f6f6f6;
+
+    --estate-sidebar: #715d5d
+
+}

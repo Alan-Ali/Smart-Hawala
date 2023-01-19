@@ -1,0 +1,218 @@
+div .details{
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+div .details:hover{
+    color: blue !important;
+}
+
+
+
+/************************************* START FOR LOGIN PAGES *************************************/
+body.index{
+    position: relative;
+    /* border: 1px solid red; */
+    height: 100vh;
+    overflow: hidden;
+    direction: rtl;
+}
+
+
+.signin-container {
+    /* position: relative; */
+    width: 550px;
+    height: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.login-pic {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.login-pic-container{
+    width: 70%;
+    height: 100%;
+    top: 10%;
+}
+
+.signin-right {
+    width: 50%;
+    height: 100%;
+
+}
+
+.signin-left {
+    width: 50%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    font-size: calc(1em + 1.5vw);
+
+}
+
+.bottom {
+    width: 100%;
+    height: 82%;
+
+}
+
+.login a:hover{
+    color: white !important;
+}
+
+
+/************************************* END FOR LOGIN PAGES *************************************/
+
+
+
+/************************************* START FOR HOME.JSP *************************************/
+
+.home-container,.main-container {
+    display: grid;
+    grid-gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-container{
+    grid-template-columns: repeat(auto-fit, 350px);
+}
+
+.home-container{
+    grid-template-columns: repeat(auto-fit, 350px);
+}
+
+
+.estate-home-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.home-container .results-card, .estate-home-container .results-card{
+    transition: 250ms background-color;
+}
+.home-container button:hover, .home-container .results-card:hover, .estate-home-container .results-card:hover{
+    background-color: var(--secondary) !important;
+}
+
+
+/*button a:focus{*/
+/*    color: white !important;*/
+/*}*/
+/*button a:active{*/
+/*    color: white !important;*/
+/*}*/
+
+/*button a:hover{*/
+/*    color: white !important;*/
+/*}*/
+
+/************************************* END FOR HOME.JSP *************************************/
+
+/************************************* START FOR DETAILS *************************************/
+
+div .details{
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+div .details:hover{
+    color: blue !important;
+}
+
+/************************************* END FOR DETAILS *************************************/
+
+
+.card-container{
+    height: 125px;
+
+}
+
+.card-symbol{
+    opacity: .7;
+    /*width: 40%;*/
+    transition: 150ms all !important;
+}
+
+.card-container:hover span{
+    opacity: 1 !important;
+}
+
+.card-{
+
+}
+
+.board-container{
+    grid-template-columns: 25% 23% 23% 25%;
+    grid-template-rows: 40vh 55vh;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.balance-container{
+    width: 49%;
+
+}
+.separator{
+    width: 1px;
+    height: 90%;
+}
+.wallet-container{
+    width: 49%;
+
+}
+
+.money-value-form{
+    height: calc(100% - 50px);
+}
+
+
+.grid-item-1{
+    grid-column: 1 /span 3;
+}
+
+/*.grid-item-2{*/
+/*    grid-column: ;*/
+/*}*/
+
+/*.grid-item-3{*/
+/*    grid-column: ;*/
+/*}*/
+
+.grid-item-4{
+    grid-column: 2 /span 3;
+}
+.login-animation{
+    animation: login_animation 500ms ease-in-out;
+}
+
+@keyframes login_animation {
+    0%{
+        /*width: 80%;*/
+        /*height: 80%;*/
+        opacity: 0;
+    }
+    /*50%{*/
+    /*     width: 120%;*/
+    /*     height: 120%;*/
+    /*     }*/
+    100%{
+        /*width: 100%;*/
+        /*height: 100%;*/
+        opacity: 1;
+    }
+}
